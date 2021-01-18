@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T22:30:42.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.2.4" etag="Y1c2WV-lJaCc6k5p_ici" type="github"><diagram id="XNPSw20A9SuPlgPJpEL1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-18T22:37:43.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="YNe5jlEzJQnQGdq4-2GU" version="14.2.4" type="github">
+  <diagram id="XNPSw20A9SuPlgPJpEL1" name="Page-1">
+    <mxGraphModel dx="946" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-1" value="Client Side" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-2" value="Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-3" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endWidth=26;endSize=6;" edge="1" parent="1" source="qpIth3g3Oy0iFtHFaMT9-1" target="qpIth3g3Oy0iFtHFaMT9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-8" value="Request/Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qpIth3g3Oy0iFtHFaMT9-6">
+          <mxGeometry x="0.0167" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qpIth3g3Oy0iFtHFaMT9-2" target="qpIth3g3Oy0iFtHFaMT9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-10" value="Server retrieves/passes information with MongoDB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qpIth3g3Oy0iFtHFaMT9-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="300" as="sourcePoint" />
+            <mxPoint x="620" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
